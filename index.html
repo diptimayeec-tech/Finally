@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>Fynally - From Student to Professional</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <header>
+    <div class="logo">Fynally</div>
+    <div class="menu-bar" onclick="toggleMenu()">☰</div>
+
+      <div id="nav-menu" class="nav">
+          <a href="#">Home</a>
+          <a href="#">about Us</a>
+          <a href="#">Mentorship</a>
+          <a href="#">Resources</a>
+          <button type="submit" class="btn ">Log In</button>
+      
+        <button class=" btn-primary signup btn" type="submit">Sign Up</button>
+      </div>
+   
+    
+ </header>
+
+
+  <div class="container">
+    <div class="row banner">
+      <div class="col-mg-6 col-md-6 col-xs-12 tag-line ">
+          <h2>From Student to Professional —
+              Your Companion for Growth</h2>
+          <p>Fynally helps you transition seamlessly with mentorship, resources, and tools to empower your future.</p>
+          <button type="submit" class="btn signup btn-primary ">Get Started</button>
+      </div>
+    
+    
+      <div class="col-mg-6 col-md-6 col-xs-12 circle">
+        <img src="professional-girl1.png" width="300" height="auto">
+      </div>
+    </div>
+ </div>
+    <!-- FEATURES -->
+  <section class="features">
+    <div class="feature-card">
+      <h3>🎯 Guidance</h3>
+      <p>Personal mentorship, career mapping, and tailored support.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📈 Growth</h3>
+      <p>Skill resources, resume building, and continuous learning.</p>
+    </div>
+    <div class="feature-card">
+      <h3>💼 Empowerment</h3>
+      <p>Job readiness, networking opportunities, and industry insights.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="steps">
+    <h2>How It Works</h2>
+    <div class="step-grid">
+      <div class="step">
+        <h3>1️⃣ Sign Up</h3>
+        <p>Create your profile and set your goals.</p>
+      </div>
+      <div class="step">
+        <h3>2️⃣ Learn & Grow</h3>
+        <p>Access curated resources and build skills.</p>
+      </div>
+      <div class="step">
+        <h3>3️⃣ Connect</h3>
+        <p>Get guidance from mentors and peers.</p>
+      </div>
+      <div class="step">
+        <h3>4️⃣ Succeed</h3>
+        <p>Land your dream job and keep growing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-card">
+      <p>"Fynally gave me the confidence and tools to prepare for my first job interview. The mentorship was invaluable!"</p>
+      <h4>- Aditi, Graduate</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"I loved the resources on resume building. Within weeks, I got shortlisted for multiple companies!"</p>
+      <h4>- Rohan, Job Seeker</h4>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p>Have questions or need guidance? We’d love to hear from you!</p>
+    <form id="contactForm" action="https://formspree.io/f/mzzakykb" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="cta-btn">Send Message</button>
+</form>
+
+<!-- Success / Error Messages -->
+<div id="formMessage" style="margin-top:1rem;"></div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Fynally. All rights reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-menu").classList.toggle("active");
+    }
+  </script>
+
+
+</body>
+
+
+</html>
